@@ -4,7 +4,8 @@ CREATE COMPUTE MODULE test
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		-- CALL CopyMessageHeaders();
-		-- CALL CopyEntireMessage();
+		 CALL CopyEntireMessage();
+	-- test the push	
 		RETURN TRUE;
 	END;
 
